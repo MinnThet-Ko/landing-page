@@ -4,20 +4,28 @@ body {
     justify-content: center;
 }
 
+input {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+
+/* CSS application for header portion*/
 .header-content {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-inline: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 
 .nav-bar, .jumbotron {
     display: flex;
     flex-direction: row;
-}
-
-.nav-bar {
     justify-content: space-between;
 }
 
@@ -56,6 +64,13 @@ a {
     color: #E5E7EB;
 }
 
+.intro-image img {
+    height: 200px;
+    width: 400px;
+}
+/* CSS application for body portion*/
+
+/* CSS for information portion*/
 .body-content {
     background-color: white;
     display: flex;
@@ -79,6 +94,7 @@ a {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 50px;
 }
 
 .info-box{
@@ -88,9 +104,83 @@ a {
     gap: 10px;
 }
 
-.info-image {
-    height: 100px;
-    width: 100px;
+.info-image img{
+    height: 150px;
+    width: 150px;
     border-style: solid;
     border-color: cyan;
+    border-radius: 10px;
+}
+
+.info-text {
+    align-self: center;
+}
+/* CSS for quote portion*/
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-origin {
+    align-self: flex-end;
+    padding-left: 50px;
+}
+
+/* CSS for signup portion */
+.signup-container {
+    background-color: #3882F6;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.signup-text-box {
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.signup-button {
+    padding-right: 10%;
+    padding-top: 6%;
+}
+
+.signup-button input {
+    align-self: center;
+    border: solid;
+    border-color: wheat;
+}
+
+/* CSS for footer portion */
+.footer-content {
+    background-color: #E5E7EB;
+    padding-inline: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-list {
+    list-style: none;
+}
+
+.copyright-info {
+    align-self: center;
 }
